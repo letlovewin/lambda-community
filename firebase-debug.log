@@ -1,0 +1,263 @@
+[debug] [2024-01-05T02:58:13.662Z] ----------------------------------------------------------------------
+[debug] [2024-01-05T02:58:13.663Z] Command:       /home/gray/.local/share/fnm/node-versions/v20.10.0/installation/bin/node /run/user/1000/fnm_multishells/64614_1704423489980/bin/firebase deploy
+[debug] [2024-01-05T02:58:13.664Z] CLI Version:   12.0.0
+[debug] [2024-01-05T02:58:13.664Z] Platform:      linux
+[debug] [2024-01-05T02:58:13.664Z] Node Version:  v20.10.0
+[debug] [2024-01-05T02:58:13.664Z] Time:          Thu Jan 04 2024 18:58:13 GMT-0800 (Pacific Standard Time)
+[debug] [2024-01-05T02:58:13.664Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-05T02:58:13.708Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-05T02:58:13.708Z] > authorizing via signed-in user (portughalam@gmail.com)
+[debug] [2024-01-05T02:58:13.708Z] [iam] checking project lambda-community for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-01-05T02:58:13.709Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions [none]
+[debug] [2024-01-05T02:58:13.709Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions x-goog-quota-user=projects/lambda-community
+[debug] [2024-01-05T02:58:13.709Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-05T02:58:14.010Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions 200
+[debug] [2024-01-05T02:58:14.011Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-05T02:58:14.011Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community [none]
+[debug] [2024-01-05T02:58:14.322Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community 200
+[debug] [2024-01-05T02:58:14.322Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community {"projectId":"lambda-community","projectNumber":"316292399888","displayName":"lambda-community","name":"projects/lambda-community","resources":{"hostingSite":"lambda-community","realtimeDatabaseInstance":"lambda-community-default-rtdb"},"state":"ACTIVE","etag":"1_22a253a3-8ae9-473f-a003-235114155a0d"}
+[debug] [2024-01-05T02:58:17.761Z] Error: [vite]: Rollup failed to resolve import "firebase/app" from "/home/gray/Desktop/lambda-community/src/routes/+page.server.js".
+This is most likely unintended because it can break your application at runtime.
+If you do want to externalize this module explicitly add it to
+`build.rollupOptions.external`
+    at viteWarn (file:///home/gray/Desktop/lambda-community/node_modules/vite/dist/node/chunks/dep-R0I0XnyH.js:66953:27)
+    at onRollupWarning (file:///home/gray/Desktop/lambda-community/node_modules/vite/dist/node/chunks/dep-R0I0XnyH.js:66981:9)
+    at onwarn (file:///home/gray/Desktop/lambda-community/node_modules/vite/dist/node/chunks/dep-R0I0XnyH.js:66698:13)
+    at file:///home/gray/Desktop/lambda-community/node_modules/rollup/dist/es/shared/node-entry.js:17370:13
+    at Object.logger [as onLog] (file:///home/gray/Desktop/lambda-community/node_modules/rollup/dist/es/shared/node-entry.js:19028:9)
+    at ModuleLoader.handleInvalidResolvedId (file:///home/gray/Desktop/lambda-community/node_modules/rollup/dist/es/shared/node-entry.js:17974:26)
+    at file:///home/gray/Desktop/lambda-community/node_modules/rollup/dist/es/shared/node-entry.js:17932:26
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-05T03:01:01.881Z] ----------------------------------------------------------------------
+[debug] [2024-01-05T03:01:01.883Z] Command:       /home/gray/.local/share/fnm/node-versions/v20.10.0/installation/bin/node /run/user/1000/fnm_multishells/64614_1704423489980/bin/firebase deploy
+[debug] [2024-01-05T03:01:01.883Z] CLI Version:   12.0.0
+[debug] [2024-01-05T03:01:01.883Z] Platform:      linux
+[debug] [2024-01-05T03:01:01.883Z] Node Version:  v20.10.0
+[debug] [2024-01-05T03:01:01.883Z] Time:          Thu Jan 04 2024 19:01:01 GMT-0800 (Pacific Standard Time)
+[debug] [2024-01-05T03:01:01.883Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-05T03:01:01.928Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-05T03:01:01.928Z] > authorizing via signed-in user (portughalam@gmail.com)
+[debug] [2024-01-05T03:01:01.928Z] [iam] checking project lambda-community for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-01-05T03:01:01.929Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions [none]
+[debug] [2024-01-05T03:01:01.929Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions x-goog-quota-user=projects/lambda-community
+[debug] [2024-01-05T03:01:01.930Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-05T03:01:02.222Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions 200
+[debug] [2024-01-05T03:01:02.222Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-05T03:01:02.222Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community [none]
+[debug] [2024-01-05T03:01:02.546Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community 200
+[debug] [2024-01-05T03:01:02.546Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community {"projectId":"lambda-community","projectNumber":"316292399888","displayName":"lambda-community","name":"projects/lambda-community","resources":{"hostingSite":"lambda-community","realtimeDatabaseInstance":"lambda-community-default-rtdb"},"state":"ACTIVE","etag":"1_22a253a3-8ae9-473f-a003-235114155a0d"}
+[debug] [2024-01-05T03:01:03.495Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/lambda-community/sites pageToken=&pageSize=10
+[debug] [2024-01-05T03:01:04.194Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/lambda-community/sites 200
+[debug] [2024-01-05T03:01:04.194Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/lambda-community/sites {"sites":[{"name":"projects/lambda-community/sites/lambda-community","defaultUrl":"https://lambda-community.web.app","appId":"1:316292399888:web:40ddc69203c6c8c8c81b95","type":"DEFAULT_SITE"}]}
+[debug] [2024-01-05T03:01:04.195Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:316292399888:web:40ddc69203c6c8c8c81b95/config [none]
+[debug] [2024-01-05T03:01:04.516Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:316292399888:web:40ddc69203c6c8c8c81b95/config 200
+[debug] [2024-01-05T03:01:04.516Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:316292399888:web:40ddc69203c6c8c8c81b95/config {"projectId":"lambda-community","appId":"1:316292399888:web:40ddc69203c6c8c8c81b95","databaseURL":"https://lambda-community-default-rtdb.firebaseio.com","storageBucket":"lambda-community.appspot.com","apiKey":"AIzaSyBp1KKYhd_M5SK4y5Ofi8M7H-EjAotAWdo","authDomain":"lambda-community.firebaseapp.com","messagingSenderId":"316292399888","measurementId":"G-FGHWYFCPDN"}
+[warn] ⚠  This integration expects Node version 16 or 18. You're running version 20, problems may be encountered. 
+[debug] [2024-01-05T03:01:17.555Z] Error: Command failed: npm i --omit dev --no-audit
+    at checkExecSyncError (node:child_process:890:11)
+    at execSync (node:child_process:962:15)
+    at prepareFrameworks (/home/gray/.local/share/fnm/node-versions/v20.10.0/installation/lib/node_modules/firebase-tools/lib/frameworks/index.js:348:42)
+    at async deploy (/home/gray/.local/share/fnm/node-versions/v20.10.0/installation/lib/node_modules/firebase-tools/lib/deploy/index.js:55:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-05T03:01:46.031Z] ----------------------------------------------------------------------
+[debug] [2024-01-05T03:01:46.033Z] Command:       /home/gray/.local/share/fnm/node-versions/v20.10.0/installation/bin/node /run/user/1000/fnm_multishells/65711_1704423702266/bin/firebase deploy
+[debug] [2024-01-05T03:01:46.033Z] CLI Version:   12.0.0
+[debug] [2024-01-05T03:01:46.033Z] Platform:      linux
+[debug] [2024-01-05T03:01:46.033Z] Node Version:  v20.10.0
+[debug] [2024-01-05T03:01:46.033Z] Time:          Thu Jan 04 2024 19:01:46 GMT-0800 (Pacific Standard Time)
+[debug] [2024-01-05T03:01:46.033Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-05T03:01:46.077Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-05T03:01:46.077Z] > authorizing via signed-in user (portughalam@gmail.com)
+[debug] [2024-01-05T03:01:46.078Z] [iam] checking project lambda-community for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-01-05T03:01:46.079Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions [none]
+[debug] [2024-01-05T03:01:46.079Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions x-goog-quota-user=projects/lambda-community
+[debug] [2024-01-05T03:01:46.079Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-05T03:01:46.404Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions 200
+[debug] [2024-01-05T03:01:46.404Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-05T03:01:46.405Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community [none]
+[debug] [2024-01-05T03:01:46.708Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community 200
+[debug] [2024-01-05T03:01:46.708Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community {"projectId":"lambda-community","projectNumber":"316292399888","displayName":"lambda-community","name":"projects/lambda-community","resources":{"hostingSite":"lambda-community","realtimeDatabaseInstance":"lambda-community-default-rtdb"},"state":"ACTIVE","etag":"1_22a253a3-8ae9-473f-a003-235114155a0d"}
+[debug] [2024-01-05T03:01:47.665Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/lambda-community/sites pageToken=&pageSize=10
+[debug] [2024-01-05T03:01:48.290Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/lambda-community/sites 200
+[debug] [2024-01-05T03:01:48.290Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/lambda-community/sites {"sites":[{"name":"projects/lambda-community/sites/lambda-community","defaultUrl":"https://lambda-community.web.app","appId":"1:316292399888:web:40ddc69203c6c8c8c81b95","type":"DEFAULT_SITE"}]}
+[debug] [2024-01-05T03:01:48.290Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:316292399888:web:40ddc69203c6c8c8c81b95/config [none]
+[debug] [2024-01-05T03:01:48.665Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:316292399888:web:40ddc69203c6c8c8c81b95/config 200
+[debug] [2024-01-05T03:01:48.665Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:316292399888:web:40ddc69203c6c8c8c81b95/config {"projectId":"lambda-community","appId":"1:316292399888:web:40ddc69203c6c8c8c81b95","databaseURL":"https://lambda-community-default-rtdb.firebaseio.com","storageBucket":"lambda-community.appspot.com","apiKey":"AIzaSyBp1KKYhd_M5SK4y5Ofi8M7H-EjAotAWdo","authDomain":"lambda-community.firebaseapp.com","messagingSenderId":"316292399888","measurementId":"G-FGHWYFCPDN"}
+[warn] ⚠  This integration expects Node version 16 or 18. You're running version 20, problems may be encountered. 
+[debug] [2024-01-05T03:01:53.956Z] Error: Command failed: npm i --omit dev --no-audit
+    at checkExecSyncError (node:child_process:890:11)
+    at execSync (node:child_process:962:15)
+    at prepareFrameworks (/home/gray/.local/share/fnm/node-versions/v20.10.0/installation/lib/node_modules/firebase-tools/lib/frameworks/index.js:348:42)
+    at async deploy (/home/gray/.local/share/fnm/node-versions/v20.10.0/installation/lib/node_modules/firebase-tools/lib/deploy/index.js:55:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-05T03:02:20.456Z] ----------------------------------------------------------------------
+[debug] [2024-01-05T03:02:20.458Z] Command:       /home/gray/.local/share/pnpm/nodejs/20.10.0/bin/node /run/user/1000/fnm_multishells/66090_1704423737071/bin/firebase deploy
+[debug] [2024-01-05T03:02:20.458Z] CLI Version:   12.0.0
+[debug] [2024-01-05T03:02:20.458Z] Platform:      linux
+[debug] [2024-01-05T03:02:20.458Z] Node Version:  v20.10.0
+[debug] [2024-01-05T03:02:20.458Z] Time:          Thu Jan 04 2024 19:02:20 GMT-0800 (Pacific Standard Time)
+[debug] [2024-01-05T03:02:20.458Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-05T03:02:20.501Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-05T03:02:20.501Z] > authorizing via signed-in user (portughalam@gmail.com)
+[debug] [2024-01-05T03:02:20.501Z] [iam] checking project lambda-community for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-01-05T03:02:20.503Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions [none]
+[debug] [2024-01-05T03:02:20.503Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions x-goog-quota-user=projects/lambda-community
+[debug] [2024-01-05T03:02:20.503Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-05T03:02:20.815Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions 200
+[debug] [2024-01-05T03:02:20.816Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-05T03:02:20.816Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community [none]
+[debug] [2024-01-05T03:02:21.022Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community 200
+[debug] [2024-01-05T03:02:21.022Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community {"projectId":"lambda-community","projectNumber":"316292399888","displayName":"lambda-community","name":"projects/lambda-community","resources":{"hostingSite":"lambda-community","realtimeDatabaseInstance":"lambda-community-default-rtdb"},"state":"ACTIVE","etag":"1_22a253a3-8ae9-473f-a003-235114155a0d"}
+[debug] [2024-01-05T03:02:21.960Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/lambda-community/sites pageToken=&pageSize=10
+[debug] [2024-01-05T03:02:22.623Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/lambda-community/sites 200
+[debug] [2024-01-05T03:02:22.623Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/lambda-community/sites {"sites":[{"name":"projects/lambda-community/sites/lambda-community","defaultUrl":"https://lambda-community.web.app","appId":"1:316292399888:web:40ddc69203c6c8c8c81b95","type":"DEFAULT_SITE"}]}
+[debug] [2024-01-05T03:02:22.623Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:316292399888:web:40ddc69203c6c8c8c81b95/config [none]
+[debug] [2024-01-05T03:02:22.969Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:316292399888:web:40ddc69203c6c8c8c81b95/config 200
+[debug] [2024-01-05T03:02:22.970Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:316292399888:web:40ddc69203c6c8c8c81b95/config {"projectId":"lambda-community","appId":"1:316292399888:web:40ddc69203c6c8c8c81b95","databaseURL":"https://lambda-community-default-rtdb.firebaseio.com","storageBucket":"lambda-community.appspot.com","apiKey":"AIzaSyBp1KKYhd_M5SK4y5Ofi8M7H-EjAotAWdo","authDomain":"lambda-community.firebaseapp.com","messagingSenderId":"316292399888","measurementId":"G-FGHWYFCPDN"}
+[warn] ⚠  This integration expects Node version 16 or 18. You're running version 20, problems may be encountered. 
+[debug] [2024-01-05T03:02:28.122Z] Error: Command failed: npm i --omit dev --no-audit
+    at checkExecSyncError (node:child_process:890:11)
+    at execSync (node:child_process:962:15)
+    at prepareFrameworks (/home/gray/.local/share/fnm/node-versions/v20.10.0/installation/lib/node_modules/firebase-tools/lib/frameworks/index.js:348:42)
+    at async deploy (/home/gray/.local/share/fnm/node-versions/v20.10.0/installation/lib/node_modules/firebase-tools/lib/deploy/index.js:55:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-05T03:03:05.598Z] ----------------------------------------------------------------------
+[debug] [2024-01-05T03:03:05.600Z] Command:       /usr/local/lib/node_modules/firebase-cli/bin/firebase /home/gray/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
+[debug] [2024-01-05T03:03:05.600Z] CLI Version:   13.0.2
+[debug] [2024-01-05T03:03:05.600Z] Platform:      linux
+[debug] [2024-01-05T03:03:05.600Z] Node Version:  v18.5.0
+[debug] [2024-01-05T03:03:05.603Z] Time:          Thu Jan 04 2024 19:03:05 GMT-0800 (Pacific Standard Time)
+[debug] [2024-01-05T03:03:05.603Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-05T03:03:05.648Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-05T03:03:05.648Z] > authorizing via signed-in user (portughalam@gmail.com)
+[debug] [2024-01-05T03:03:05.648Z] [iam] checking project lambda-community for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-01-05T03:03:05.650Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions [none]
+[debug] [2024-01-05T03:03:05.650Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions x-goog-quota-user=projects/lambda-community
+[debug] [2024-01-05T03:03:05.650Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-05T03:03:05.935Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions 200
+[debug] [2024-01-05T03:03:05.935Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-05T03:03:05.936Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community [none]
+[debug] [2024-01-05T03:03:06.281Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community 200
+[debug] [2024-01-05T03:03:06.281Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community {"projectId":"lambda-community","projectNumber":"316292399888","displayName":"lambda-community","name":"projects/lambda-community","resources":{"hostingSite":"lambda-community","realtimeDatabaseInstance":"lambda-community-default-rtdb"},"state":"ACTIVE","etag":"1_22a253a3-8ae9-473f-a003-235114155a0d"}
+[debug] [2024-01-05T03:03:07.351Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/lambda-community/sites pageToken=&pageSize=10
+[debug] [2024-01-05T03:03:08.025Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/lambda-community/sites 200
+[debug] [2024-01-05T03:03:08.025Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/lambda-community/sites {"sites":[{"name":"projects/lambda-community/sites/lambda-community","defaultUrl":"https://lambda-community.web.app","appId":"1:316292399888:web:40ddc69203c6c8c8c81b95","type":"DEFAULT_SITE"}]}
+[debug] [2024-01-05T03:03:08.026Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:316292399888:web:40ddc69203c6c8c8c81b95/config [none]
+[debug] [2024-01-05T03:03:08.472Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:316292399888:web:40ddc69203c6c8c8c81b95/config 200
+[debug] [2024-01-05T03:03:08.472Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:316292399888:web:40ddc69203c6c8c8c81b95/config {"projectId":"lambda-community","appId":"1:316292399888:web:40ddc69203c6c8c8c81b95","databaseURL":"https://lambda-community-default-rtdb.firebaseio.com","storageBucket":"lambda-community.appspot.com","apiKey":"AIzaSyBp1KKYhd_M5SK4y5Ofi8M7H-EjAotAWdo","authDomain":"lambda-community.firebaseapp.com","messagingSenderId":"316292399888","measurementId":"G-FGHWYFCPDN"}
+[info] 
+   Thank you for trying our experimental support for SvelteKit on Firebase Hosting.
+   While this integration is maintained by Googlers it is not a supported Firebase product.
+   Issues filed on GitHub will be addressed on a best-effort basis by maintainers and other community members.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/frameworks-overview
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2024-01-05T03:03:14.412Z] Error: Command failed: npm i --omit dev --no-audit
+    at checkExecSyncError (node:child_process:820:11)
+    at Object.execSync (node:child_process:891:15)
+    at execSync (pkg/prelude/bootstrap.js:2111:30)
+    at prepareFrameworks (/home/gray/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/frameworks/index.js:372:42)
+    at async deploy (/home/gray/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/deploy/index.js:55:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-05T03:03:33.249Z] ----------------------------------------------------------------------
+[debug] [2024-01-05T03:03:33.250Z] Command:       /usr/local/lib/node_modules/firebase-cli/bin/firebase /home/gray/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
+[debug] [2024-01-05T03:03:33.250Z] CLI Version:   13.0.2
+[debug] [2024-01-05T03:03:33.251Z] Platform:      linux
+[debug] [2024-01-05T03:03:33.251Z] Node Version:  v18.5.0
+[debug] [2024-01-05T03:03:33.251Z] Time:          Thu Jan 04 2024 19:03:33 GMT-0800 (Pacific Standard Time)
+[debug] [2024-01-05T03:03:33.251Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-05T03:03:33.294Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-05T03:03:33.294Z] > authorizing via signed-in user (portughalam@gmail.com)
+[debug] [2024-01-05T03:03:33.294Z] [iam] checking project lambda-community for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-01-05T03:03:33.296Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions [none]
+[debug] [2024-01-05T03:03:33.296Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions x-goog-quota-user=projects/lambda-community
+[debug] [2024-01-05T03:03:33.296Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-05T03:03:33.582Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions 200
+[debug] [2024-01-05T03:03:33.582Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-05T03:03:33.583Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community [none]
+[debug] [2024-01-05T03:03:33.900Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community 200
+[debug] [2024-01-05T03:03:33.900Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community {"projectId":"lambda-community","projectNumber":"316292399888","displayName":"lambda-community","name":"projects/lambda-community","resources":{"hostingSite":"lambda-community","realtimeDatabaseInstance":"lambda-community-default-rtdb"},"state":"ACTIVE","etag":"1_22a253a3-8ae9-473f-a003-235114155a0d"}
+[debug] [2024-01-05T03:03:34.923Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/lambda-community/sites pageToken=&pageSize=10
+[debug] [2024-01-05T03:03:35.600Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/lambda-community/sites 200
+[debug] [2024-01-05T03:03:35.601Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/lambda-community/sites {"sites":[{"name":"projects/lambda-community/sites/lambda-community","defaultUrl":"https://lambda-community.web.app","appId":"1:316292399888:web:40ddc69203c6c8c8c81b95","type":"DEFAULT_SITE"}]}
+[debug] [2024-01-05T03:03:35.601Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:316292399888:web:40ddc69203c6c8c8c81b95/config [none]
+[debug] [2024-01-05T03:03:36.004Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:316292399888:web:40ddc69203c6c8c8c81b95/config 200
+[debug] [2024-01-05T03:03:36.004Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:316292399888:web:40ddc69203c6c8c8c81b95/config {"projectId":"lambda-community","appId":"1:316292399888:web:40ddc69203c6c8c8c81b95","databaseURL":"https://lambda-community-default-rtdb.firebaseio.com","storageBucket":"lambda-community.appspot.com","apiKey":"AIzaSyBp1KKYhd_M5SK4y5Ofi8M7H-EjAotAWdo","authDomain":"lambda-community.firebaseapp.com","messagingSenderId":"316292399888","measurementId":"G-FGHWYFCPDN"}
+[info] 
+   Thank you for trying our experimental support for SvelteKit on Firebase Hosting.
+   While this integration is maintained by Googlers it is not a supported Firebase product.
+   Issues filed on GitHub will be addressed on a best-effort basis by maintainers and other community members.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/frameworks-overview
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2024-01-05T03:03:41.949Z] Error: Command failed: npm i --omit dev --no-audit
+    at checkExecSyncError (node:child_process:820:11)
+    at Object.execSync (node:child_process:891:15)
+    at execSync (pkg/prelude/bootstrap.js:2111:30)
+    at prepareFrameworks (/home/gray/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/frameworks/index.js:372:42)
+    at async deploy (/home/gray/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/deploy/index.js:55:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-01-05T03:06:11.642Z] ----------------------------------------------------------------------
+[debug] [2024-01-05T03:06:11.644Z] Command:       /usr/local/lib/node_modules/firebase-cli/bin/firebase /home/gray/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
+[debug] [2024-01-05T03:06:11.644Z] CLI Version:   13.0.2
+[debug] [2024-01-05T03:06:11.644Z] Platform:      linux
+[debug] [2024-01-05T03:06:11.644Z] Node Version:  v18.5.0
+[debug] [2024-01-05T03:06:11.644Z] Time:          Thu Jan 04 2024 19:06:11 GMT-0800 (Pacific Standard Time)
+[debug] [2024-01-05T03:06:11.645Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-05T03:06:11.689Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-05T03:06:11.689Z] > authorizing via signed-in user (portughalam@gmail.com)
+[debug] [2024-01-05T03:06:11.689Z] [iam] checking project lambda-community for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-01-05T03:06:11.691Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions [none]
+[debug] [2024-01-05T03:06:11.691Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions x-goog-quota-user=projects/lambda-community
+[debug] [2024-01-05T03:06:11.691Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-05T03:06:11.973Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions 200
+[debug] [2024-01-05T03:06:11.973Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lambda-community:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-01-05T03:06:11.974Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community [none]
+[debug] [2024-01-05T03:06:12.340Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community 200
+[debug] [2024-01-05T03:06:12.340Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/lambda-community {"projectId":"lambda-community","projectNumber":"316292399888","displayName":"lambda-community","name":"projects/lambda-community","resources":{"hostingSite":"lambda-community","realtimeDatabaseInstance":"lambda-community-default-rtdb"},"state":"ACTIVE","etag":"1_22a253a3-8ae9-473f-a003-235114155a0d"}
+[debug] [2024-01-05T03:06:13.370Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/lambda-community/sites pageToken=&pageSize=10
+[debug] [2024-01-05T03:06:14.057Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/lambda-community/sites 200
+[debug] [2024-01-05T03:06:14.057Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/lambda-community/sites {"sites":[{"name":"projects/lambda-community/sites/lambda-community","defaultUrl":"https://lambda-community.web.app","appId":"1:316292399888:web:40ddc69203c6c8c8c81b95","type":"DEFAULT_SITE"}]}
+[debug] [2024-01-05T03:06:14.058Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:316292399888:web:40ddc69203c6c8c8c81b95/config [none]
+[debug] [2024-01-05T03:06:14.570Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:316292399888:web:40ddc69203c6c8c8c81b95/config 200
+[debug] [2024-01-05T03:06:14.570Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:316292399888:web:40ddc69203c6c8c8c81b95/config {"projectId":"lambda-community","appId":"1:316292399888:web:40ddc69203c6c8c8c81b95","databaseURL":"https://lambda-community-default-rtdb.firebaseio.com","storageBucket":"lambda-community.appspot.com","apiKey":"AIzaSyBp1KKYhd_M5SK4y5Ofi8M7H-EjAotAWdo","authDomain":"lambda-community.firebaseapp.com","messagingSenderId":"316292399888","measurementId":"G-FGHWYFCPDN"}
+[info] 
+   Thank you for trying our experimental support for SvelteKit on Firebase Hosting.
+   While this integration is maintained by Googlers it is not a supported Firebase product.
+   Issues filed on GitHub will be addressed on a best-effort basis by maintainers and other community members.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/frameworks-overview
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2024-01-05T03:06:28.242Z] Error: Command failed: npm i --omit dev --no-audit
+    at checkExecSyncError (node:child_process:820:11)
+    at Object.execSync (node:child_process:891:15)
+    at execSync (pkg/prelude/bootstrap.js:2111:30)
+    at prepareFrameworks (/home/gray/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/frameworks/index.js:372:42)
+    at async deploy (/home/gray/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/deploy/index.js:55:13)
+[error] 
+[error] Error: An unexpected error has occurred.
